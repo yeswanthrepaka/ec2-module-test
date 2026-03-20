@@ -21,3 +21,7 @@ variable "env" {
 variable "component" {
   default = "catalogue"
 }
+
+variable "tags" {
+  default = {}
+}
